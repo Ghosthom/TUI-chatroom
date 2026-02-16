@@ -53,12 +53,14 @@ Server can also broadcast messages by simply typing and pressing Enter.
 ### Steps
 
 1. Clone the repository:
-    git clone <repository-url>
-    cd 'TUI chatroom'
-
+```
+git clone <repository-url>
+cd 'TUI chatroom'
+```
 2. Install dependencies:
-    pip install -r requirements.txt
-
+```
+pip install -r requirements.txt
+```
 ## Usage
 
 ### Starting the Server
@@ -69,27 +71,27 @@ The server handles client connections and moderation commands.
 
 You'll be guided through the configuration:
 
-==================================================
-               SERVER CONFIGURATION
-==================================================
+    ==================================================
+                   SERVER CONFIGURATION
+    ==================================================
 
-Host options:
-  1. 127.0.0.1     - Local connections only
-  2. Hamachi IP    - Your Hamachi IP (e.g., 25.x.x.x)
-  3. Custom IP     - Enter IP manually
+    Host options:
+      1. 127.0.0.1     - Local connections only
+      2. Hamachi IP    - Your Hamachi IP (e.g., 25.x.x.x)
+      3. Custom IP     - Enter IP manually
 
-Select option (1-3): 1
+    Select option (1-3): 1
 
-Port [55555]: 
+    Port [55555]: 
 
-Maximum clients [5]: 
+    Maximum clients [5]: 
 
-✓ Configuration:
-  Host: 127.0.0.1
-  Port: 55555
-  Max clients: 5
+    ✓ Configuration:
+      Host: 127.0.0.1
+      Port: 55555
+      Max clients: 5
 
-Start server with this configuration? (y/n): y
+    Start server with this configuration? (y/n): y
 
 Once running, you'll see the server console where you can:
 
@@ -106,26 +108,26 @@ The client provides the TUI interface for chatting.
 
 Configuration guide:
 
-==================================================
-               CLIENT CONFIGURATION
-==================================================
+    ==================================================
+                   CLIENT CONFIGURATION
+    ==================================================
+    
+    Your nickname: John
+    
+    Server options:
+      1. Localhost (127.0.0.1) - Server on this PC
+      2. Hamachi               - Server on Hamachi network
+      3. Custom                - Enter IP manually
 
-Your nickname: John
+    Select option (1-3): 1
 
-Server options:
-  1. Localhost (127.0.0.1) - Server on this PC
-  2. Hamachi               - Server on Hamachi network
-  3. Custom                - Enter IP manually
+    Server port [55555]: 
 
-Select option (1-3): 1
+    ✓ Configuration:
+      Nickname: John
+      Server: 127.0.0.1:55555
 
-Server port [55555]: 
-
-✓ Configuration:
-  Nickname: John
-  Server: 127.0.0.1:55555
-
-Connect with this configuration? (y/n): y
+    Connect with this configuration? (y/n): y
 
 ## Error Handling
 
