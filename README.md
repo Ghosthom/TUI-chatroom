@@ -55,7 +55,7 @@ Server can also broadcast messages by simply typing and pressing Enter.
 1. Clone the repository:
 ```
 git clone https://github.com/Ghosthom/TUI-chatroom.git
-cd 'TUI chatroom'
+cd TUI-chatroom
 ```
 2. Install dependencies:
 ```
