@@ -2,6 +2,8 @@
 
 A terminal-based group chat application with support for private messages, moderation commands, and a TUI interface built with Textual.
 
+![Preview](img.png)
+
 ## 📝 Note About Development
 
 This project was developed through **vibe-coding** - a mix of Spanish and English comments, AI-assisted development, and iterative refinement. The code works perfectly, but you might find sporadic bilingual comments throughout.
